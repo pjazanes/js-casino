@@ -9,10 +9,12 @@
 </head>
 <body>
     <h1>Random Number Generator</h1>
-    <h2 class="generateNumberHeading">Generate a Number</h2>
-    <input type="range">
+    <h2 class="generateNumberHeading">Generate a Number between 0 and </h2>
+    <form action="" class="generateNumberForm">
+        <input type="range" min="0" max="200" step="1" value="100">
+    </form>
     <form action="" class="guessNumberForm">
-        <label for="">Guess the Number</label>
+        <label>Guess the Number</label>
         <input type="number">
         <button>Play!</button>
     </form>
