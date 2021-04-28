@@ -1,4 +1,15 @@
 body {
     font-family: sans-serif;
   }
-  
+
+.guessNumberInput {
+  width: 4em;
+}
+
+.resultContainer, .inputError {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
